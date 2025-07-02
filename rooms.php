@@ -160,9 +160,9 @@ while ($row =$stm->fetch(PDO::FETCH_ASSOC)){
                                 </td>
 
                                 <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                    <a href="room-details.php?room_id=<?= $room['id']?>" class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100">
+                                    <button class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100">
                                         Details
-                                    </a>
+                                    </button>
                                 </td>
                             </tr>
                             <?php endforeach;?>
